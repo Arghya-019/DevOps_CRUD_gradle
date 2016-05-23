@@ -1,0 +1,29 @@
+apply plugin: 'java'
+
+apply plugin: 'eclipse'
+
+apply plugin: "war"
+ 
+sourceCompatibility = 1.7
+ 
+repositories {
+flatDir { dirs "lib" }
+    mavenCentral()
+}
+ 
+dependencies {
+    compile("mysql:mysql-connector-java:5.1.38")
+    compile("javax.servlet:javax.servlet-api:3.0.1")
+    compile("org.hamcrest:hamcrest-junit:2.0.0.0")
+    compile("log4j:log4j:1.2.17")
+}
+
+dependencies {
+    testCompile("junit:junit:4.4") 
+}
+
+war {
+    baseName = 'DevOpsPortal'
+    version = '1.0.0-BUILD-SNAPSHOT'
+}
+

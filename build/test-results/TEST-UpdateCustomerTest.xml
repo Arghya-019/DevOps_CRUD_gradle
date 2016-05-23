@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UpdateCustomerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-13T07:34:01" hostname="EBI083F2EW" time="0.782">
+  <properties/>
+  <testcase name="TestUpdateCustomer" classname="UpdateCustomerTest" time="0.782"/>
+  <system-out><![CDATA[2016-04-13 13:04:01 INFO  DeleteCustomerTest:19 - TestUpdateCustomer() started
+trying to connect
+2016-04-13 13:04:01 INFO  HexConnection:13 - checkConnection() started
+2016-04-13 13:04:01 INFO  HexConnection:20 - prop.load starteddatabase_config.properties
+2016-04-13 13:04:01 INFO  HexConnection:22 - prop.load ends
+2016-04-13 13:04:01 INFO  HexConnection:28 - Trying to get the driver
+2016-04-13 13:04:01 INFO  HexConnection:30 - Registering driver Success..
+connection success
+2016-04-13 13:04:02 INFO  DeleteCustomerTest:22 - Executed TestUpdateCustomer() Successfully
+]]></system-out>
+  <system-err><![CDATA[Wed Apr 13 13:04:01 IST 2016 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+]]></system-err>
+</testsuite>
